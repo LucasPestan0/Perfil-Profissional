@@ -1,0 +1,304 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: rgb(144, 139, 133);
+    padding: 20px;
+}
+
+/*Menu do header */
+.menu  {
+    justify-content:center;
+    display: flex;
+    gap: 160px; 
+}
+
+/*Menu do header os link*/
+.menu a {
+    text-decoration: none;
+    color: rgb(78, 76, 76);
+    font-size: 20px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+/*Quem sou?*/
+.quem{
+    padding: 30px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(78, 76, 76);
+}
+
+/*Lucas e Perfil profissional*/
+.lucas {
+    margin-left: 90px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgb(100, 98, 98);
+    font-size: 40px;
+    
+}
+
+/*TEXTO DE APRESENTAÇÃO*/
+.container {
+    padding: 40px;
+}
+
+/*Referente aos textos da pagina*/
+.texto {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgb(100, 98, 98);
+    flex: 1;
+    max-width: 9000px;
+    line-height: 2;
+    font-size: 30px;
+}
+
+
+/*Paragrafos*/
+p {
+    text-align: center;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+/*Grid da formação*/
+.formacao{
+    background-color: rgb(144, 139, 133);
+    padding: 20px;
+}
+
+/*Grid da formação*/
+.formacao-cursos {
+    display: inline-grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+/*Grid da formação*/
+.curso {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    background-color: rgb(110, 107, 102);
+    border-radius: 15px;
+}
+
+/*Nome dos tipos de curso ex técnolgo*/
+.tipo {
+    color: rgb(67, 64, 64);
+    padding: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/*Nome do curso */
+.nome{
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*Duração do curso*/
+.duracao {
+    color: white;
+    padding: 10px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*Grid dos cursos intensivos*/
+.cursos-intensivos {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap:15px;
+    background-color: rgb(110, 107, 102);
+    border-radius: 15px;
+}
+
+
+.curso-iten {
+    display:inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+
+/*Nome do curso*/
+.curso-nome {
+    flex: 1;
+    color: white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+/*Tempo do curso*/
+.tempo {
+    margin-left: 20px;
+    white-space: nowrap;
+    color: white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*Qual tipo da graduação*/
+.tipo {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+}
+
+/*Botão github*/
+.botao {
+    padding: 10px 20px;
+    background-color: rgb(80, 78, 78);
+    display: inline-block ;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 30px;
+    transition: background-color 0.3s;
+    margin-left: 70px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*Botão github*/
+.botao:hover {
+    background-color: black;
+}
+
+/*Botão github*/
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/*Ajustes quem sou*/
+#quemsou{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+/*Ajustes grid portifólio*/
+#Portifólio {
+    padding-left: 270px;
+    padding-right: 200px;
+    padding-bottom: 90px;
+}
+
+/*Imagens ajustes*/
+.fotob {
+    display: flex;
+    gap: 150px;
+    padding-top: 20px;
+}
+
+/*Imagens ajustes*/
+.projeto {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+/*Botão dos projeto */
+.botaob {
+    margin-top: 40px;
+}
+
+/*Botão dos projeto */
+.botaob a {
+    text-decoration: none;
+    color:white ;
+    background-color: rgb(80, 78, 78);
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*Botão dos projeto */
+.botaob a:hover {
+    background-color: rgb(11, 10, 10);
+}
+
+/* Imagens*/
+img {
+    border-radius: 30px;
+}
+
+/*Referente ao grid contato*/
+#Contato {
+    max-width: 600px;
+    margin: 0;
+    padding: 20px;
+    padding-left: 270px;
+    padding-right: 200px;
+}
+
+/*Referente aos campos formulario*/
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Referente aos campos formulario*/
+.formulario label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(78, 76, 76);
+}
+
+/*Referente aos campos formulario*/
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+/*Referente aos campos formulario*/
+.formulario textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+/*Referente ao botao enviar */
+.botao-formulario {
+    padding: 15px 20px;
+    background-color: rgb(80, 78, 78);
+    color:white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*Referente ao botao enviar */
+.botao-formulario:hover {
+    background-color: black;
+}
+
+.redes a {
+    padding-left: 300px;
+    cursor: pointer;
+}
